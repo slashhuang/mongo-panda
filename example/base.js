@@ -14,15 +14,14 @@ MongoClient.connect(url, function(err, db) {
 //插入文档
 var insertDocuments = function(db, callback) {
   // Get the documents collection
-  var collection = db.collection('documents');
-  	console.log(collection.__proto__)
+  var collection = db.collection('hekkk');
 
   // Insert some documents
   collection.insertMany([
     {a : 1}, {a : 2}, {a : 3}
   ], function(err, result) {
  	console.log(result)
-    console.log("Inserted 3 documents into the collection");
+    console.log("Inserted 3 hekkk into the collection");
     callback(result);
   });
 }
