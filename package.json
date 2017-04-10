@@ -1,0 +1,26 @@
+{
+  "name": "mongo-panda",
+  "version": "1.0.0",
+  "description": "a node.js mongo friend",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slashhuang/mongo-panda.git"
+  },
+  "keywords": [
+    "mongo",
+    "node.js"
+  ],
+  "author": "slashhuang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slashhuang/mongo-panda/issues"
+  },
+  "homepage": "https://github.com/slashhuang/mongo-panda#readme"
+}
