@@ -12,7 +12,8 @@
      "find": "nodemon example/find.js",
      "update": "nodemon example/update.js",
      "remove": "nodemon example/remove.js",
-     "bulk": "nodemon example/bulk.js"
+     "bulk": "nodemon example/bulk.js",
+      "index": "nodemon example/index.js"
   },
   "repository": {
     "type": "git",
