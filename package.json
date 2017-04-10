@@ -7,7 +7,7 @@
     "doc": "doc"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "base": "nodemon example/base.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/slashhuang/mongo-panda/issues"
   },
-  "homepage": "https://github.com/slashhuang/mongo-panda#readme"
+  "homepage": "https://github.com/slashhuang/mongo-panda#readme",
+  "devDependencies": {
+    "mongodb": "^2.2.25",
+    "nodemon": "^1.11.0"
+  }
 }
