@@ -1,5 +1,7 @@
 ## mongodb collection方法集合
 
+[collections方法官方文档](https://mongodb.github.io/node-mongodb-native/contents.html)
+
 ## db.collection('documents')
 ```js
 Collection {

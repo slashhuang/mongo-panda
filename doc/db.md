@@ -1,5 +1,7 @@
 ## mongodb 库方法集合
 
+[官方参考资料](https://mongodb.github.io/node-mongodb-native/contents.html)
+
 ## require('mongodb').Db.prototype实例数据库的方法
 
 ```js
