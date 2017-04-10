@@ -7,7 +7,12 @@
     "doc": "doc"
   },
   "scripts": {
-    "base": "nodemon example/base.js"
+    "start": "nodemon example/start.js",
+     "insert": "nodemon example/insert.js",
+     "find": "nodemon example/find.js",
+     "update": "nodemon example/update.js",
+     "remove": "nodemon example/remove.js",
+     "bulk": "nodemon example/bulk.js"
   },
   "repository": {
     "type": "git",
