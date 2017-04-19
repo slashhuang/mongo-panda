@@ -5,6 +5,7 @@
  const CRUD = require('./mocker');
  //连接 db ==> slashhuang
  mongoose.connect('mongodb://localhost/slashhuang');
+ mongoose.Promise = global.Promise;
  http.createServer((req,res)=>{
  	let {url} = req;
  	let map = {

@@ -17,6 +17,8 @@ mongo及shell概述
 
 [mongoose基础](http://mongoosejs.com/docs/index.html)
 
+[mongoose Promise](http://mongoosejs.com/docs/promises.html)
+
 [mongoose起步guide](http://mongoosejs.com/docs/guide.html)
 
 [monoose数据模型](http://mongoosejs.com/docs/models.html)
