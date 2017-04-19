@@ -1,9 +1,40 @@
 # mongo-panda
+	
+	你可以采用`swagger`来学习mongoose的api
+	也可以直接在url输入参数来学习
 
-a mongoose doc swagger tutorial reference handbook
+## Usgae 使用
+
+```bash
+
+	yarn(或者cnpm) install --verbose
+
+	npm start
+
+```	
 
 
-## mongo 官方 links
+## Easy architecture简单的目录结构
+
+```bash
+
+	|- index.js [http入口]
+	|
+	|- mocker[文件夹]
+	|- |- query.js [查询]
+	|- |- update.js [更新]
+	|- |- save.js [保存]
+	|- |- remove.js [删除]
+	|
+	|- model[数据模型]
+	|- |- index.js [schema + model]
+
+```
+
+
+## Reference 参考文档
+
+### mongo 官方 links
 
 mongo及shell概述
 
@@ -13,7 +44,7 @@ mongo及shell概述
 
 [CRUD](http://mongodb.github.io/node-mongodb-native/2.2/tutorials/crud/)
 
-## mongoose核心文档
+### mongoose核心文档
 
 [mongoose基础](http://mongoosejs.com/docs/index.html)
 
