@@ -18,16 +18,12 @@
 */
 //设定schema
 const mongoose = require('mongoose');
-const blogSchema = mongoose.Schema({
-    title: String,
-    content: String,
-    category: String,
-});
-const BlogModel = mongoose.model('Blog', blogSchema);
-
+const _ = require('lodash');
+const BlogModel = require('./model')['BlogModel'];
 const db_saveBlog = (blogData)=>{
-	let $blog = new BlogModel(blogData);
-	$blog.save().then(blog=> {
+	let blog = _.pick(blogData,['title','content','category'])
+	let $blog = new BlogModel(blog);
+	return $blog.save().then(blog=> {
 	   console.log(blog);
 	   console.log('save successfully')
 	});

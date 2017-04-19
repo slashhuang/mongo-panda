@@ -15,7 +15,7 @@
  				condition:{
  					title: '第一篇博客',
  				},
- 				update:{
+ 				updater:{
  					  content: '老师来改作业啦',
  				}
  			}
@@ -41,11 +41,15 @@
  			}
  		}
  	};
- 	let mongoAction = CRUD[`db_${map[url]['action']}`];
- 	let mockData = Object.assign({},map[url]['mock'],{Date:Date.now()});
- 	Promise.resolve(mongoAction(mockData)).then(data=>{
+ 	Promise.resolve().then(()=>{
+ 		let mongoAction = CRUD[`db_${map[url]['action']}`];
+	 	let mockData = map[url]['mock']
+	 	return mongoAction(mockData)
+ 	}).then(data=>{
+ 		console.log('fuck----'+data)
  		res.end('ok')
- 	}).catch((err)=>{
- 		res.end(`${err.name}+${err.stack}`)
- 	})
+ 	}).catch(err=>res.end(`${err.name}+${err.stack}`))
  }).listen(3000)
+
+
+
