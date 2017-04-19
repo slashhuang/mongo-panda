@@ -7,13 +7,7 @@
     "doc": "doc"
   },
   "scripts": {
-    "start": "nodemon example/start.js",
-     "insert": "nodemon example/insert.js",
-     "find": "nodemon example/find.js",
-     "update": "nodemon example/update.js",
-     "remove": "nodemon example/remove.js",
-     "bulk": "nodemon example/bulk.js",
-      "index": "nodemon example/index.js"
+    "start": "nodemon example/start.js"
   },
   "repository": {
     "type": "git",
@@ -32,5 +26,8 @@
   "devDependencies": {
     "mongodb": "^2.2.25",
     "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "mongoose": "^4.9.5"
   }
 }
