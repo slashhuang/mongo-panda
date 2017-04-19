@@ -3,16 +3,28 @@
 	你可以采用`swagger`来学习mongoose的api
 	也可以直接在url输入参数来学习
 
+
+## Requirements 要求
+
+- node engine > 6.3.0
+
+- mongodb installation
+
+
 ## Usgae 使用
 
 ```bash
 
 	yarn(或者cnpm) install --verbose
 
+	# start mongo
+	mkdir -p ~/data/db
+	sh ./db.sh
+
+	# start project
 	npm start
 
 ```	
-
 
 ## Easy architecture简单的目录结构
 
