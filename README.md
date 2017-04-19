@@ -25,6 +25,8 @@ mongo及shell概述
 
 [monoose增删改查](http://mongoosejs.com/docs/schematypes.html)
 
+	- [save](http://mongoosejs.com/docs/api.html#model_Model-save)
+
 	- [query](http://mongoosejs.com/docs/queries.html)
 
 	- [update](http://mongoosejs.com/docs/api.html#model_Model.update)

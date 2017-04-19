@@ -7,7 +7,7 @@
     "doc": "doc"
   },
   "scripts": {
-    "start": "nodemon example/start.js"
+    "start": "nodemon --inspect index.js"
   },
   "repository": {
     "type": "git",
