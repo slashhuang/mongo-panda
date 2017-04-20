@@ -6,7 +6,7 @@ const _ = require('lodash');
 const BlogModel = require('./model')['BlogModel'];
 const db_updateBlog = updateObj=>{
 	let { condition,updater} = updateObj
-	return BlogModel.update(condition, { $set: updater}).exec();
+	return BlogModel.update(condition, { $set: updater},{ multi: true }).exec();
 };
 
 module.exports = db_updateBlog;

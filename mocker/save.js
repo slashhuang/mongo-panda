@@ -22,6 +22,7 @@ const _ = require('lodash');
 const BlogModel = require('./model')['BlogModel'];
 const db_saveBlog = (blogData)=>{
 	let blog = _.pick(blogData,['title','content','category'])
+
 	let $blog = new BlogModel(blog);
 	return $blog.save().then(blog=> {
 	   console.log(blog);
