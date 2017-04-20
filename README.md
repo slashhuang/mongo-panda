@@ -46,9 +46,12 @@
 
 ## Reference 参考文档
 
-### mongo 官方 links
+### 数据库术语 technical terms
 
-mongo及shell概述
+[schema](https://en.wikipedia.org/wiki/Schema)
+[database schema](https://en.wikipedia.org/wiki/Database_schema)
+
+### mongo及shell概述
 
 [start](./doc/start.md)
 
